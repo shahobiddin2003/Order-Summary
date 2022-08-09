@@ -3,8 +3,8 @@
   justify-content: center;
   align-items: center;
   background-image: url(../images/pattern-background-desktop.svg);
-  background-repeat:no-repeat;
-  
+  background-repeat: no-repeat;
+
   .card {
     background-image: url(../images/illustration-hero.svg);
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color:#fff;
+    background-color: #fff;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
     .card_title {
@@ -76,11 +76,15 @@
       font-family: "Red Hat Display", sans-serif;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       cursor: pointer;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
       &:hover {
         opacity: 0.7;
         cursor: pointer;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+          rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
       }
     }
     .card_cancelbutton {
@@ -93,9 +97,14 @@
       font-family: "Red Hat Display", sans-serif;
       font-weight: 900;
       opacity: 0.7;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
       &:hover {
         opacity: 1;
         cursor: pointer;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+          rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
       }
     }
   }
